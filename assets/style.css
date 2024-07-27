@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(251, 237, 223);
+}
+.logo_name {
+    display: flex;
+    padding: 20px;
+}
+.clinic_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+h1, h3 {
+    margin: 0;
+    align-self: center;
+}
+header {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100wv;
+    font-family: "Andika", sans-serif;
+}
+nav {
+    display: flex;
+    
+}
+ul {
+    display: flex;
+    align-self: flex-end;
+}
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+.mainpart {
+    display: flex;
+    font-family: "Andika", sans-serif;
+    /*justify-content: space-between;*/
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.par1 {
+    padding: 40px;
+
+}
+.par2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.par3 {
+    align-items: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.animal {
+    border-radius: 15px;
+}
+
+.aside_block {
+    width: 250px;
+    padding: 40px;
+    border: 3px solid rgb(237, 197, 197);
+    border-radius: 15px;
+    margin-right: 20px;
+    align-self: center;
+}
+footer {
+    font-family: "Andika", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 218, 166);
+    margin-bottom: 0;
+    margin-top: 30px
+}
